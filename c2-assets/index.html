@@ -81,8 +81,10 @@
                     <i class="fa-solid fa-cart-shopping mr-4 text-2xl hidden lg:inline-block"></i>
 
                     <div class="hidden lg:inline-flex">
-                        <a class="btn bg-transparent border-[#179800] mr-2 px-7 text-lg font-normal animate-pulse" href="">Login</a>
-                        <a class="btn bg-btn-primary text-white border-none px-7 text-lg font-normal animate-bounce">Register</a>
+                        <a class="btn bg-transparent border-[#179800] mr-2 px-7 text-lg font-normal animate-pulse"
+                            href="">Login</a>
+                        <a
+                            class="btn bg-btn-primary text-white border-none px-7 text-lg font-normal animate-bounce">Register</a>
                     </div>
                 </div>
             </div>
@@ -100,32 +102,48 @@
     </header>
     <main>
         <!--  Carousel -->
-        <div class="container mx-auto">
-            <div class="carousel w-full rounded-xl">
-                <div id="item1" class="carousel-item max-w-[1320px] max-h-[600px]">
+        <section class="mx-4 lg:mt-24 mt-16 mb-24">
+        <h2 class="text-btn-primary text-center font-sora font-bold text-xl lg:text-3xl mb-6">Top Selling Products</h2>
+        <div class="container flex mx-auto justify-center">
+            <div class="carousel rounded-box">
+                <div class="carousel-item">
                   <img
-                    src="grocerry 1.jpeg"/>
+                    src="grocerry 1.jpeg"
+                    alt="Burger" />
                 </div>
-                <div id="item2" class="carousel-item max-w-[1320px] max-h-[600px]">
+                <div class="carousel-item">
                   <img
-                    src="grocerry 2.jpg"/>
+                    src="grocerry 2.jpg"
+                    alt="Burger" />
                 </div>
-                <div id="item3" class="carousel-item max-w-[1320px] max-h-[600px]">
+                <div class="carousel-item">
                   <img
-                    src="grocerry 3.jpeg"/>
+                    src="grocerry 3.jpeg"
+                    alt="Burger" />
                 </div>
-                <div id="item4" class="carousel-item max-w-[1320px] max-h-[600px]">
+                <div class="carousel-item">
                   <img
-                    src="grocerry 4.jpeg"/>
+                    src="grocerry 4.jpeg"
+                    alt="Burger" />
                 </div>
-              </div>
-              <div class="flex w-full justify-center gap-2 py-2">
-                <a href="#item1" class="btn btn-xs">1</a>
-                <a href="#item2" class="btn btn-xs">2</a>
-                <a href="#item3" class="btn btn-xs">3</a>
-                <a href="#item4" class="btn btn-xs">4</a>
+                <div class="carousel-item">
+                  <img
+                    src="grocerry 5.jpeg"
+                    alt="Burger" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="grocerry 6.jpeg"
+                    alt="Burger" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="grocerry 7.jpeg"
+                    alt="Burger" />
+                </div>
               </div>
         </div>
+    </section>
         <!-- Services section -->
         <section class="container mx-auto p-4 lg:p-0 mt-8 mb-6 lg:mb-24">
             <h2 class="text-btn-primary font-sora font-semibold text-xl lg:text-3xl mb-6">Services</h2>
@@ -441,72 +459,61 @@
         <!-- subscribe section -->
         <section>
             <div class="hero flex p-4 lg:p-0">
-              <div
-                class="hero-content container mx-auto flex-col lg:justify-start lg:flex-row lg:gap-28 text-center lg:text-start lg:pl-28 lg:py-10 bg-[#EFEBE3] rounded-xl"
-              >
-                <img
-                  src="vegetable-busket.png"
-                  class="rounded-lg w-3/5 lg:w-1/3"
-                />
-                <div>
-                  <h1 class="text-[22px] lg:text-[#111111] text-btn-primary lg:text-4xl font-bold font-sora -mb-2">
-                    Get Grocery News!
-                  </h1>
-                  <p class="py-6 font-sora text-[16px] lg:text-[20px]">
-                    Exclusive training tips, ticks, product deals and more.
-                  </p>
-                  <input
-                    type="text"
-                    placeholder="Enter email...."
-                    class="input input-bordered w-full max-w-md border-none font-sora mb-8 lg:py-8"
-                  />
-                  <br />
-                  <button
-                    class="btn bg-[#179800] border-none font-sora px-10 font-normal text-white text-xl animate-pulse"
-                  >
-                    Subscribe
-                  </button>
+                <div
+                    class="hero-content container mx-auto flex-col lg:justify-start lg:flex-row lg:gap-28 text-center lg:text-start lg:pl-28 lg:py-10 bg-[#EFEBE3] rounded-xl">
+                    <img src="vegetable-busket.png" class="rounded-lg w-3/5 lg:w-1/3" />
+                    <div>
+                        <h1
+                            class="text-[22px] lg:text-[#111111] text-btn-primary lg:text-4xl font-bold font-sora -mb-2">
+                            Get Grocery News!
+                        </h1>
+                        <p class="py-6 font-sora text-[16px] lg:text-[20px]">
+                            Exclusive training tips, ticks, product deals and more.
+                        </p>
+                        <input type="text" placeholder="Enter email...."
+                            class="input input-bordered w-full max-w-md border-none font-sora mb-8 lg:py-8" />
+                        <br />
+                        <button
+                            class="btn bg-[#179800] border-none font-sora px-10 font-normal text-white text-xl animate-pulse">
+                            Subscribe
+                        </button>
+                    </div>
                 </div>
-              </div>
             </div>
-          </section>
+        </section>
     </main>
 
     <!-- Footer section -->
     <footer class="h-[720px] bg-[#179800]">
-        <footer
-          class="container mx-auto lg:p-0 footer p-10 font-sora -mt-[300px]"
-        >
-          <div
-            class="mt-[330px] lg:mt-[450px] flex flex-col lg:flex-row justify-between space-y-5 lg:space-x-52"
-          >
-            <nav class="max-w-[400px]">
-              <div class="flex flex-row items-center gap-3 mb-3">
-                <img src="logo-footer.png" alt="" />
-              </div>
-              <p class="text-[16px] text-sora text-gray-300 lg:text-[20px]">
-                Discover a world of treats, toys, and essentials handpicked for your furry friends
-              </p>
-            </nav>
-            <nav class="text-gray-200 font-sora flex flex-col space-y-2 lg:space-y-5 lg:text-[20px]">
-              <a class="link link-hover">Product</a>
-              <a class="link link-hover">Services</a>
-              <a class="link link-hover">Contact us</a>
-            </nav>
-            <nav>
-              <div class="lg:mt-[50px]">
-                <h6 class="mb-2 text-gray-200 lg:text-[16px]">Follow Us</h6>
-                <div class="grid text-gray-200 grid-flow-col gap-4 text-[20px]">
-                  <i class="fa-brands fa-facebook"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-linkedin"></i>
-                  <i class="fa-brands fa-youtube"></i>
-                </div>
-              </div>
-            </nav>
-          </div>
+        <footer class="container mx-auto lg:p-0 footer p-10 font-sora -mt-[300px]">
+            <div class="mt-[330px] lg:mt-[450px] flex flex-col lg:flex-row justify-between space-y-5 lg:space-x-52">
+                <nav class="max-w-[400px]">
+                    <div class="flex flex-row items-center gap-3 mb-3">
+                        <img src="logo-footer.png" alt="" />
+                    </div>
+                    <p class="text-[16px] text-sora text-gray-300 lg:text-[20px]">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends
+                    </p>
+                </nav>
+                <nav class="text-gray-200 font-sora flex flex-col space-y-2 lg:space-y-5 lg:text-[20px]">
+                    <a class="link link-hover">Product</a>
+                    <a class="link link-hover">Services</a>
+                    <a class="link link-hover">Contact us</a>
+                </nav>
+                <nav>
+                    <div class="lg:mt-[50px]">
+                        <h6 class="mb-2 text-gray-200 lg:text-[16px]">Follow Us</h6>
+                        <div class="grid text-gray-200 grid-flow-col gap-4 text-[20px]">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </footer>
-      </footer>
+    </footer>
 </body>
 
 </html>
